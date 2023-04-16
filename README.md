@@ -18,4 +18,4 @@ Same props as [Tamagui Select](https://tamagui.dev/docs/components/select/1.0.0)
 
 ## Compatibility
 
-This component is only compatible with Tamagui `1.15.11` due to version mismatch issue. You can clone the repo and replace the tamagui versions in package.json with the one you are using. I'll try to fix it in the future.
+This component is only compatible with Tamagui `1.15.13` due to version mismatch issue. You can clone the repo and replace the tamagui versions in package.json with the one you are using. I'll try to fix it in the future.
