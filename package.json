@@ -1,6 +1,6 @@
 {
   "name": "tamagui-multiple-select",
-  "version": "0.0.6",
+  "version": "1.15.11",
   "sideEffects": [
     "*.css"
   ],
@@ -18,7 +18,8 @@
     "build": "tamagui-build",
     "watch": "tamagui-build --watch",
     "clean": "tamagui-build clean",
-    "clean:build": "tamagui-build clean:build"
+    "clean:build": "tamagui-build clean:build",
+    "upgrade:tamagui": "manypkg upgrade tamagui && manypkg upgrade @tamagui && manypkg upgrade tamagui-loader && manypkg upgrade react-native-web-lite"
   },
   "exports": {
     "./package.json": "./package.json",
@@ -33,20 +34,20 @@
     "@floating-ui/react-dom": "^1.2.2",
     "@floating-ui/react-native": "^0.9.0",
     "@radix-ui/react-use-previous": "^0.1.1",
-    "@tamagui/adapt": "1.10.0",
-    "@tamagui/compose-refs": "1.10.0",
-    "@tamagui/core": "1.10.0",
-    "@tamagui/create-context": "1.10.0",
-    "@tamagui/dismissable": "1.10.0",
-    "@tamagui/focus-scope": "1.10.0",
-    "@tamagui/list-item": "1.10.0",
-    "@tamagui/portal": "1.10.0",
-    "@tamagui/separator": "1.10.0",
-    "@tamagui/sheet": "1.10.0",
-    "@tamagui/stacks": "1.10.0",
-    "@tamagui/text": "1.10.0",
-    "@tamagui/use-controllable-state": "1.10.0",
-    "@tamagui/use-event": "1.10.0"
+    "@tamagui/adapt": "1.15.11",
+    "@tamagui/compose-refs": "1.15.11",
+    "@tamagui/core": "1.15.11",
+    "@tamagui/create-context": "1.15.11",
+    "@tamagui/dismissable": "1.15.11",
+    "@tamagui/focus-scope": "1.15.11",
+    "@tamagui/list-item": "1.15.11",
+    "@tamagui/portal": "1.15.11",
+    "@tamagui/separator": "1.15.11",
+    "@tamagui/sheet": "1.15.11",
+    "@tamagui/stacks": "1.15.11",
+    "@tamagui/text": "1.15.11",
+    "@tamagui/use-controllable-state": "1.15.11",
+    "@tamagui/use-event": "1.15.11"
   },
   "peerDependencies": {
     "react": "*",
@@ -54,7 +55,8 @@
     "react-native": "*"
   },
   "devDependencies": {
-    "@tamagui/build": "1.10.0",
+    "@manypkg/cli": "^0.20.0",
+    "@tamagui/build": "1.15.11",
     "@types/react": "^18.0.35",
     "esbuild": "^0.17.16",
     "fast-glob": "^3.2.12",
